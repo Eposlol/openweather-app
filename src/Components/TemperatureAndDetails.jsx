@@ -31,7 +31,7 @@ function TemperatureAndDetails({weather: {
                 </div>
             </div>
         </div>
-        <div className='flex flex-row items-center justify-center space-x-2 text-white text-sm py-3'>
+        <div className='flex flex-row items-center justify-center space-x-2 text-white text-sm py-3 flex-wrap md:flex-nowrap'>
             <UilSun/>
             <p className='font-light'>Rise:<span className='font-medium ml-1'>{formatToLocalTime(sunrise, timezone, "hh:mm a")}</span></p>
             <p className='font-light'>|</p>
